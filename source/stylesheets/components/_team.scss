@@ -1,0 +1,24 @@
+
+.avatar-team {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  margin: 30px 10px 0px 10px;
+}
+
+.team-body {
+  text-align: center
+}
+
+.mailto {
+    ul {
+    }
+    a{
+      color: rgb(70, 154, 224);
+      font-size: 30px;
+    }
+    &:hover{
+      color: rgba(70, 154, 224, 0.4);
+    }
+}

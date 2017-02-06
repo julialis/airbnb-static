@@ -1,0 +1,17 @@
+
+
+<div class="team">
+  <h1 class=team-body>Our team</h1>
+  <ul class="list-inline text-center">
+    <% ["Hugo", "Benjamin", "Patrick"].each do |member| %>
+      <li>
+        <%= image_tag "#{member}.jpg", class: "avatar-team" %>
+        <h3><%= member.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+  <ul class="mailto list-inline text-center">
+    <%= link_to "", "mailto:contact@airbnb.com", class: "fa fa-envelope" %>
+    <%= link_to "contact@airbnb.com", "mailto:contact@airbnb.com" %>
+  </ul>
+</div>
